@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/hitit" />
+
+        <EditText
+            android:id="@+id/vize"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:hint="Vize Notunuzu Giriniz."
+            android:textColorHint="#2E2E2E" />
+
+        <EditText
+            android:id="@+id/finalnot"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Final Notunuzu Giriniz."
+            android:textColorHint="#2E2E2E"
+            />
+
+        <EditText
+            android:id="@+id/ogrencisayisi"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Öğrenci Sayısını Giriniz."
+            android:textColorHint="#2E2E2E"
+            />
+
+        <EditText
+            android:id="@+id/sinifort"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Sınıf Ham Dönem Not Ortalamasını Giriniz."
+            android:textColorHint="#2E2E2E" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="HESAPLA"
+            android:id="@+id/hesapla"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:id="@+id/notortalama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Not Ortalamanız"
+            android:textColorHint="#2E2E2E"
+
+            />
+
+        <TextView
+            android:id="@+id/harfnotu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Mutlak Hesaplama Harf Notunuz"
+            android:inputType="text"
+            android:textColorHint="#2E2E2E"
+
+            />
+
+        <TextView
+            android:id="@+id/tSkorPuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="T-Skorunuz"
+            android:inputType="text"
+            android:textColorHint="#2E2E2E"
+
+            />
+
+        <TextView
+            android:id="@+id/tScoreHarfNotu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Bağıl Hesaplama Harf Notu"
+            android:inputType="text"
+            android:textColorHint="#2E2E2E"
+
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
